@@ -1,4 +1,4 @@
-# Henon Attractor generator in Python
+# Hénon Attractor generator in Python
 
 The Hénon map is a discrete-time dynamical system. It is one of the most studied examples of dynamical systems that exhibit chaotic behavior. The Hénon map takes a point (xn, yn) in the plane and maps it to a new point
 
