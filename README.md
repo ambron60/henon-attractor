@@ -15,3 +15,5 @@ Open a terminal window and type (for example):
 ```python3 henon.py -.75 .32 1.2 0.3 10000```
 
 Where the first four parameters indicate X0, Y0, a, b and iterations (e.g., 10000) indicates the number of forward evolutions. You can always type: ```python3 henon.py -h``` to view these instructions from the console itself.
+
+Requires (libraries): argparse, matplotlib, and mpmath
