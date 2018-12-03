@@ -40,7 +40,7 @@ def plot_attractor(x, y):
 def main():
     x, y, a, b = [mpf(param) for param in list(initial_params().values())[:-1]]
     iterations = initial_params()["iterations"]
-    mp.dps = 16  # set decimal precision of all parameters except iterations
+    mp.dps = 10  # set decimal precision of all parameters except iterations
     xt, yt = [], []  # store iterations of xn and yn
     for _ in range(iterations + 1):
         xn, yn = henon_map(x, y, a, b)
